@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Dust dune</h1>
+
+<div>
+  <a href="https://www.linkedin.com/company/dustdune">LinkedIn</a>
+  <a href="https://www.instagram.com/dustdunegames">Instagram</a>
+  <a href="https://twitter.com/dustdune">Twitter</a>
+  <a href="https://www.tiktok.com/@dust_dune">TikTok</a>
+</div>
