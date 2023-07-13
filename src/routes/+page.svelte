@@ -2,9 +2,9 @@
   <div class="inner-header">
     <h1>DUST DUNE</h1>
     <div>
-      <button on:click={() => focusElement('element2')}>Home</button>
-      <button on:click={() => focusElement('element1')}>About us</button>
-      <button on:click={() => focusElement('element1')}>Contact</button>
+      <button on:click={() => console.log('home')}>Home</button>
+      <button on:click={() => console.log('about')}>About us</button>
+      <button on:click={() => console.log('contact')}>Contact</button>
     </div>
   </div>
 </header>
@@ -38,7 +38,7 @@
 <style>
   @font-face {
     font-family: 'LibreBaskerville';
-    src: url('../../static/fonts/LibreBaskerville-Regular.ttf') format('truetype');
+    src: url('fonts/LibreBaskerville-Regular.ttf') format('truetype');
   }
 
   :global(body) {
