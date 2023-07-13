@@ -15,18 +15,6 @@
 </main>
 
 <footer>
-  <form action="https://api.staticforms.xyz/submit" method="post">
-      <input type="text" name="name" placeholder="Your Name">
-      <input type="text" name="email" placeholder="Your Email" />
-      <textarea name="message"></textarea>
-      <input type="text" name="honeypot" style="display:none">
-      <input type="hidden" name="accessKey" value="aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk">
-      <input type="hidden" name="subject" value="Contact us from - example.com" />
-      <input type="hidden" name="replyTo" value="@">
-      <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
-      <input type="submit" value="Submit" />
-  </form>
-
   <div>
     <a href="https://www.linkedin.com/company/dustdune" target="_blank">LinkedIn</a>
     <a href="https://www.instagram.com/dustdunegames" target="_blank">Instagram</a>
@@ -36,11 +24,6 @@
 </footer>
 
 <style>
-  @font-face {
-    font-family: 'LibreBaskerville';
-    src: url('fonts/LibreBaskerville-Regular.ttf') format('truetype');
-  }
-
   :global(body) {
     background-color: #000;
     color: #fff;
@@ -78,7 +61,6 @@
 
   h1 {
     font-size: 42px;
-    font-family: 'LibreBaskerville';
     margin-left: 20px;
   }
 
