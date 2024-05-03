@@ -4,7 +4,7 @@
 
 <header>
 	<div class="inner-header">
-		<h1>DUST DUNE</h1>
+		<h1>dust dune</h1>
 		<div>
 			<button on:click={() => console.log('home')}>Home</button>
 			<button on:click={() => console.log('about')}>About us</button>
