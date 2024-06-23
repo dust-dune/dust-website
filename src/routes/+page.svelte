@@ -15,11 +15,7 @@
 
 <main>
 	<div class="header-space" />
-	<h class="message">Vai dar td certo Mari, minha princesa 💖</h>
-	<img
-		src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjVsMmI2ZHFob3d5ZWJjaTQyZTBmcmtjbmUwM2Fkb25ydDF0cnpjbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9G0AdBbVrkV3O/giphy.webp"
-		alt="Vai dar td certo Mari, minha princesa 💖"
-	/>
+	<h class="message">In development</h>
 </main>
 
 <Footer />
