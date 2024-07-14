@@ -2,19 +2,7 @@
 	import Footer from '../components/footer.svelte';
 </script>
 
-<!-- <header> -->
-<!-- 	<div class="inner-header"> -->
-<!-- 		<h1>dust dune</h1> -->
-<!-- 		<div> -->
-<!-- 			<button on:click={() => console.log('home')}>Home</button> -->
-<!-- 			<button on:click={() => console.log('about')}>About us</button> -->
-<!-- 			<button on:click={() => console.log('contact')}>Contact</button> -->
-<!-- 		</div> -->
-<!-- 	</div> -->
-<!-- </header> -->
-
 <main>
-	<div class="header-space" />
 	<h class="message">In development</h>
 </main>
 
@@ -27,9 +15,14 @@
 		padding: 0;
 	}
 
+	:global(html) {
+		font-size: 16px;
+		font-family: 'Roboto', sans-serif;
+	}
+
 	main {
-		width: 100vw;
-		min-height: 80vh;
+		width: 100%;
+		min-height: 100vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -39,46 +32,5 @@
 	.message {
 		font-size: 24px;
 		color: #000;
-	}
-
-	header {
-		position: fixed;
-		display: flex;
-		width: 100%;
-		justify-content: center;
-		align-items: center;
-		background-color: #06162c;
-	}
-
-	.header-space {
-		height: 100px;
-	}
-
-	.inner-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 100%;
-		max-width: 1200px;
-	}
-
-	h1 {
-		font-size: 42px;
-		margin-left: 20px;
-	}
-
-	button {
-		background-color: #06162c;
-		color: #fff;
-		border: none;
-		outline: none;
-		padding: 0px;
-		margin: 20px;
-		cursor: pointer;
-		font-size: 16px;
-	}
-
-	button:hover {
-		color: #64ffda;
 	}
 </style>
