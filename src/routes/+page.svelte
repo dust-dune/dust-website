@@ -5,7 +5,6 @@
 				<img width="100%" src="images/logo.svg" alt="logo" />
 			</div>
 			<div class="textcontainer">
-				<h1>Dust Dune</h1>
 				<p>Desenvolva seu website ou aplicativo conosco. Entre em contato e faça um orçamento.</p>
 				<a href="mailto:contact@dustdune.com" class="mail">
 					<p>Faça um orçamento</p>
