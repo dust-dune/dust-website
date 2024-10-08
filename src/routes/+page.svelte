@@ -15,7 +15,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="mailto:contact@dustdune.com" class="mail">
+				<a href="https://wa.me/98996016871" class="mail">
 					<p>Fale conosco</p>
 					<svg xmlns="https://api.whatsapp.com/send?phone=5598982046032" viewBox="0 0 27 32">
 						<path
